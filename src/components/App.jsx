@@ -14,7 +14,6 @@ function App() {
   function handleChange(event) {
     setName(event.target.value);
   }
-
   function handleClick(event) {
     setHeading(name);
     event.preventDefault();
